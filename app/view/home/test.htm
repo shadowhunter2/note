@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>test</title>
+  </head>
+  <body>
+    <form action="/test" method="POST">
+      <input type="text" name="name"/>
+      <input type="text" name="pwd"/>
+      <input type="submit" value="提交"/>
+    </form>
+
+    <form method="POST" action="/upload" enctype="multipart/form-data">
+      title: <input name="title" />
+      file: <input name="file" type="file" />
+      <button type="submit">上传</button>
+    </form>
+  </body>
+</html>

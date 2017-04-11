@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title></title>
+  </head>
+  <style>
+    h5{
+      height:30px;
+      line-height:30px;
+    }
+
+    h5 img{
+      vertical-align: middle;
+      width: 30px;
+      height:30px;
+      margin-right:10px;
+    }
+
+    h5 span{
+      vertical-align: middle;
+      display:inline-block;
+      height: 30px;
+      line-height: 30px;
+    }
+    
+  </style>
+  <body>
+    <div>
+      <h2>{{detail.title}}</h2>
+      <h5>
+        <img src="{{detail.author.avatar_url}}"/>
+        <span> {{detail.author.loginname}}</span>
+      </h5>
+      <div><a href="javascript:history.back()">返回</a></div>
+        {{ detail.content | safe }}
+    </div>
+  </body>
+</html>

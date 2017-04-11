@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>注册</title>
+  <link rel="stylesheet" href="http://h5.banglive.cn:18080/dist/index.css?1491536134384" />
+  <style media="screen">
+    body {
+      height: 100%;
+      overflow-y: hidden;
+      background-color: #fbfbfb;
+    }
+    
+    .form___222 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin: -160px 0 0 -160px;
+      width: 320px;
+      height: 320px;
+      padding: 36px;
+      box-shadow: 0 0 100px rgba(0, 0, 0, .08);
+    }
+    
+    .loginbutton___222 {
+      width: 100%;
+    }
+    
+    .logo___222 {
+      text-align: center;
+      height: 40px;
+      line-height: 40px;
+      cursor: pointer;
+      margin-bottom: 24px;
+    }
+    
+    .logo___222 span {
+      vertical-align: text-bottom;
+      font-size: 20px;
+      text-transform: uppercase;
+      display: inline-block;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="root">
+    <div class="form___222">
+      <div class="logo___222">
+        <span>老表写笔记-注册</span>
+      </div>
+      <form class="ant-form" id="form_login">
+        <div class="ant-row ant-form-item">
+          <div class="ant-form-item-control has-success">
+            <span class="ant-input-wrapper ant-input-group">
+            <span class="ant-input-group-addon">
+              <i class="anticon anticon-user"></i>
+            </span>
+            <input type="text" placeholder="账号" id="userName" class="ant-input ant-input-lg">
+            </span>
+          </div>
+        </div>
+        <div class="ant-row ant-form-item">
+          <div class="ant-form-item-control ">
+            <span class="ant-input-wrapper ant-input-group">
+            <span class="ant-input-group-addon">
+              <i class="anticon anticon-lock"></i>
+            </span>
+            <input type="password" placeholder="密码" id="password" class="ant-input ant-input-lg">
+            </span>
+          </div>
+        </div>
+        <button type="submit" class="ant-btn ant-btn-primary loginbutton___222" id="login_btn">
+        <span>登 录</span>
+      </button>
+      </form>
+    </div>
+  </div>
+  <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript">
+    function getCookie(name) {
+      var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+      if (arr = document.cookie.match(reg))
+        return unescape(arr[2]);
+      else
+        return null;
+    }
+
+    var csrftoken = getCookie('csrfToken');
+    function csrfSafeMethod(method) { // these HTTP methods do not require CSRF protection
+      return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+    } $.ajaxSetup({
+      beforeSend: function (xhr, settings) {
+        if (!csrfSafeMethod(settings.type)
+          && !this.crossDomain) { xhr.setRequestHeader('x-csrf-token', csrftoken); }
+      },
+    });
+
+    var oName = $('#userName');
+    var oPwd = $('#password');
+
+    $("#form_login").submit(function (e) {
+      e.preventDefault();
+
+      var userName = oName.val();
+      var password = oPwd.val();
+
+      if (userName == '' || password == '') {
+        return alert('用户名或密码不能为空');
+      }
+
+      $.post('/reg', {
+        name: userName,
+        pwd: password
+      }, function (data) {
+        if (data.rt == 1) {
+          location.href = '/';
+        }
+        else {
+          console.log(data.msg);
+        }
+      })
+    });
+  </script>
+
+</body>
+
+</html>

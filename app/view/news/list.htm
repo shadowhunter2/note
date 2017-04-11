@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>Hacker News</title>
+  </head>
+  <body>
+    <div class="news-view view">
+      {% for item in list %}
+        <div class="item">
+          <a href="{{ item.url }}">{{ helper.test(item.title) }}</a>
+        </div>
+      {% endfor %}
+
+      {% for item in topics %}
+        <div>
+          <a href="/news/detail/{{ item.id }}">{{ item.title }}</a>
+        </div>
+      {% endfor %}
+    </div>
+  </body>
+</html>

@@ -1,0 +1,139 @@
+2017-04-10 17:57:55,521 INFO 57082 [master] =================== egg start =====================
+2017-04-10 17:57:55,522 INFO 57082 [master] egg version 1.0.0
+2017-04-10 17:57:55,522 INFO 57082 [master] start with options: {"framework":"/Users/zhujun/Sites/code/node/egg-note/node_modules/egg","baseDir":"/Users/zhujun/Sites/code/node/egg-note","port":7001,"workers":8,"plugins":null,"https":false,"key":"","cert":""}
+2017-04-10 17:57:55,522 INFO 57082 [master] start with env: isProduction: true, isDebug: false, EGG_SERVER_ENV: prod, NODE_ENV: undefined
+2017-04-10 17:57:55,530 INFO 57082 [master] Agent Worker:57088 start with ["{\"framework\":\"/Users/zhujun/Sites/code/node/egg-note/node_modules/egg\",\"baseDir\":\"/Users/zhujun/Sites/code/node/egg-note\",\"port\":7001,\"workers\":8,\"plugins\":null,\"https\":false,\"key\":\"\",\"cert\":\"\",\"clusterPort\":64801}"]
+2017-04-10 17:57:55,806 INFO 57088 [egg:logger] init all loggers with options: {"dir":"/Users/zhujun/logs/egg-note","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"egg-note-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"type":"agent"}
+2017-04-10 17:57:55,960 INFO 57088 [ClusterClient#Watcher] has seized port 64801, and serves as leader client.
+2017-04-10 17:57:55,961 INFO 57088 [egg-watcher:agent] watcher start success
+2017-04-10 17:57:55,963 WARN 57088 [egg-watcher] defaultEventSource watcher will NOT take effect
+2017-04-10 17:57:55,967 INFO 57082 [master] Agent Worker started (442ms)
+2017-04-10 17:57:56,011 INFO 57082 [master] App Worker#1:57089 start, state: none, current workers: ["1","2","3","4","5","6","7","8"]
+2017-04-10 17:57:56,011 INFO 57082 [master] App Worker#2:57090 start, state: none, current workers: ["1","2","3","4","5","6","7","8"]
+2017-04-10 17:57:56,011 INFO 57082 [master] App Worker#3:57091 start, state: none, current workers: ["1","2","3","4","5","6","7","8"]
+2017-04-10 17:57:56,011 INFO 57082 [master] App Worker#4:57092 start, state: none, current workers: ["1","2","3","4","5","6","7","8"]
+2017-04-10 17:57:56,011 INFO 57082 [master] App Worker#5:57093 start, state: none, current workers: ["1","2","3","4","5","6","7","8"]
+2017-04-10 17:57:56,011 INFO 57082 [master] App Worker#6:57094 start, state: none, current workers: ["1","2","3","4","5","6","7","8"]
+2017-04-10 17:57:56,011 INFO 57082 [master] App Worker#7:57095 start, state: none, current workers: ["1","2","3","4","5","6","7","8"]
+2017-04-10 17:57:56,011 INFO 57082 [master] App Worker#8:57096 start, state: none, current workers: ["1","2","3","4","5","6","7","8"]
+2017-04-10 17:57:56,845 INFO 57089 [egg:logger] init all loggers with options: {"dir":"/Users/zhujun/logs/egg-note","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"egg-note-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"type":"application"}
+2017-04-10 17:57:56,853 INFO 57093 [egg:logger] init all loggers with options: {"dir":"/Users/zhujun/logs/egg-note","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"egg-note-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"type":"application"}
+2017-04-10 17:57:56,856 INFO 57091 [egg:logger] init all loggers with options: {"dir":"/Users/zhujun/logs/egg-note","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"egg-note-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"type":"application"}
+2017-04-10 17:57:56,858 INFO 57090 [egg:logger] init all loggers with options: {"dir":"/Users/zhujun/logs/egg-note","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"egg-note-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"type":"application"}
+2017-04-10 17:57:56,861 INFO 57092 [egg:logger] init all loggers with options: {"dir":"/Users/zhujun/logs/egg-note","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"egg-note-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"type":"application"}
+2017-04-10 17:57:56,867 INFO 57094 [egg:logger] init all loggers with options: {"dir":"/Users/zhujun/logs/egg-note","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"egg-note-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"type":"application"}
+2017-04-10 17:57:56,877 INFO 57096 [egg:logger] init all loggers with options: {"dir":"/Users/zhujun/logs/egg-note","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"egg-note-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"type":"application"}
+2017-04-10 17:57:56,885 INFO 57095 [egg:logger] init all loggers with options: {"dir":"/Users/zhujun/logs/egg-note","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","outputJSON":false,"buffer":true,"appLogName":"egg-note-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"type":"application"}
+2017-04-10 17:57:56,921 INFO 57089 [egg-schedule]: register schedule egg-schedule:/Users/zhujun/Sites/code/node/egg-note/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-04-10 17:57:56,922 INFO 57089 [egg-schedule]: register schedule egg-schedule:/Users/zhujun/Sites/code/node/egg-note/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-04-10 17:57:56,926 INFO 57093 [egg-schedule]: register schedule egg-schedule:/Users/zhujun/Sites/code/node/egg-note/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-04-10 17:57:56,926 INFO 57093 [egg-schedule]: register schedule egg-schedule:/Users/zhujun/Sites/code/node/egg-note/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-04-10 17:57:56,931 INFO 57090 [egg-schedule]: register schedule egg-schedule:/Users/zhujun/Sites/code/node/egg-note/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-04-10 17:57:56,931 INFO 57090 [egg-schedule]: register schedule egg-schedule:/Users/zhujun/Sites/code/node/egg-note/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-04-10 17:57:56,933 INFO 57091 [egg-schedule]: register schedule egg-schedule:/Users/zhujun/Sites/code/node/egg-note/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-04-10 17:57:56,933 INFO 57091 [egg-schedule]: register schedule egg-schedule:/Users/zhujun/Sites/code/node/egg-note/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-04-10 17:57:56,941 INFO 57094 [egg-schedule]: register schedule egg-schedule:/Users/zhujun/Sites/code/node/egg-note/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-04-10 17:57:56,941 INFO 57094 [egg-schedule]: register schedule egg-schedule:/Users/zhujun/Sites/code/node/egg-note/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-04-10 17:57:56,943 INFO 57092 [egg-schedule]: register schedule egg-schedule:/Users/zhujun/Sites/code/node/egg-note/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-04-10 17:57:56,943 INFO 57092 [egg-schedule]: register schedule egg-schedule:/Users/zhujun/Sites/code/node/egg-note/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-04-10 17:57:56,949 INFO 57096 [egg-schedule]: register schedule egg-schedule:/Users/zhujun/Sites/code/node/egg-note/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-04-10 17:57:56,949 INFO 57096 [egg-schedule]: register schedule egg-schedule:/Users/zhujun/Sites/code/node/egg-note/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-04-10 17:57:56,949 INFO 57095 [egg-schedule]: register schedule egg-schedule:/Users/zhujun/Sites/code/node/egg-note/node_modules/.2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-04-10 17:57:56,950 INFO 57095 [egg-schedule]: register schedule egg-schedule:/Users/zhujun/Sites/code/node/egg-note/node_modules/.2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-04-10 17:57:57,202 INFO 57089 [egg-static] starting static serve /public/ -> /Users/zhujun/Sites/code/node/egg-note/app/public
+2017-04-10 17:57:57,214 INFO 57089 [egg-security] use csrf middleware
+2017-04-10 17:57:57,215 INFO 57089 [egg-security] use methodnoallow middleware
+2017-04-10 17:57:57,216 INFO 57089 [egg-security] use noopen middleware
+2017-04-10 17:57:57,216 INFO 57089 [egg-security] use nosniff middleware
+2017-04-10 17:57:57,217 INFO 57089 [egg-security] use xssProtection middleware
+2017-04-10 17:57:57,217 INFO 57089 [egg-security] use xframe middleware
+2017-04-10 17:57:57,217 INFO 57089 [egg-security] compose 6 middlewares into one security middleware
+2017-04-10 17:57:57,225 INFO 57091 [egg-static] starting static serve /public/ -> /Users/zhujun/Sites/code/node/egg-note/app/public
+2017-04-10 17:57:57,227 INFO 57093 [egg-static] starting static serve /public/ -> /Users/zhujun/Sites/code/node/egg-note/app/public
+2017-04-10 17:57:57,230 INFO 57093 [egg-security] use csrf middleware
+2017-04-10 17:57:57,230 INFO 57092 [egg-static] starting static serve /public/ -> /Users/zhujun/Sites/code/node/egg-note/app/public
+2017-04-10 17:57:57,230 INFO 57090 [egg-static] starting static serve /public/ -> /Users/zhujun/Sites/code/node/egg-note/app/public
+2017-04-10 17:57:57,231 INFO 57093 [egg-security] use methodnoallow middleware
+2017-04-10 17:57:57,231 INFO 57093 [egg-security] use noopen middleware
+2017-04-10 17:57:57,232 INFO 57093 [egg-security] use nosniff middleware
+2017-04-10 17:57:57,233 INFO 57093 [egg-security] use xssProtection middleware
+2017-04-10 17:57:57,234 INFO 57091 [egg-security] use csrf middleware
+2017-04-10 17:57:57,234 INFO 57093 [egg-security] use xframe middleware
+2017-04-10 17:57:57,234 INFO 57093 [egg-security] compose 6 middlewares into one security middleware
+2017-04-10 17:57:57,234 INFO 57094 [egg-static] starting static serve /public/ -> /Users/zhujun/Sites/code/node/egg-note/app/public
+2017-04-10 17:57:57,235 INFO 57091 [egg-security] use methodnoallow middleware
+2017-04-10 17:57:57,236 INFO 57091 [egg-security] use noopen middleware
+2017-04-10 17:57:57,236 INFO 57090 [egg-security] use csrf middleware
+2017-04-10 17:57:57,236 INFO 57091 [egg-security] use nosniff middleware
+2017-04-10 17:57:57,237 INFO 57092 [egg-security] use csrf middleware
+2017-04-10 17:57:57,237 INFO 57091 [egg-security] use xssProtection middleware
+2017-04-10 17:57:57,237 INFO 57094 [egg-security] use csrf middleware
+2017-04-10 17:57:57,237 INFO 57090 [egg-security] use methodnoallow middleware
+2017-04-10 17:57:57,237 INFO 57091 [egg-security] use xframe middleware
+2017-04-10 17:57:57,237 INFO 57091 [egg-security] compose 6 middlewares into one security middleware
+2017-04-10 17:57:57,238 INFO 57090 [egg-security] use noopen middleware
+2017-04-10 17:57:57,238 INFO 57092 [egg-security] use methodnoallow middleware
+2017-04-10 17:57:57,238 INFO 57090 [egg-security] use nosniff middleware
+2017-04-10 17:57:57,239 INFO 57092 [egg-security] use noopen middleware
+2017-04-10 17:57:57,239 INFO 57090 [egg-security] use xssProtection middleware
+2017-04-10 17:57:57,239 INFO 57090 [egg-security] use xframe middleware
+2017-04-10 17:57:57,239 INFO 57090 [egg-security] compose 6 middlewares into one security middleware
+2017-04-10 17:57:57,240 INFO 57092 [egg-security] use nosniff middleware
+2017-04-10 17:57:57,241 INFO 57092 [egg-security] use xssProtection middleware
+2017-04-10 17:57:57,241 INFO 57092 [egg-security] use xframe middleware
+2017-04-10 17:57:57,242 INFO 57092 [egg-security] compose 6 middlewares into one security middleware
+2017-04-10 17:57:57,242 INFO 57096 [egg-static] starting static serve /public/ -> /Users/zhujun/Sites/code/node/egg-note/app/public
+2017-04-10 17:57:57,243 INFO 57094 [egg-security] use methodnoallow middleware
+2017-04-10 17:57:57,243 INFO 57094 [egg-security] use noopen middleware
+2017-04-10 17:57:57,245 INFO 57096 [egg-security] use csrf middleware
+2017-04-10 17:57:57,245 INFO 57094 [egg-security] use nosniff middleware
+2017-04-10 17:57:57,246 INFO 57094 [egg-security] use xssProtection middleware
+2017-04-10 17:57:57,246 INFO 57094 [egg-security] use xframe middleware
+2017-04-10 17:57:57,246 INFO 57096 [egg-security] use methodnoallow middleware
+2017-04-10 17:57:57,246 INFO 57094 [egg-security] compose 6 middlewares into one security middleware
+2017-04-10 17:57:57,247 INFO 57095 [egg-static] starting static serve /public/ -> /Users/zhujun/Sites/code/node/egg-note/app/public
+2017-04-10 17:57:57,247 INFO 57096 [egg-security] use noopen middleware
+2017-04-10 17:57:57,248 INFO 57096 [egg-security] use nosniff middleware
+2017-04-10 17:57:57,248 INFO 57096 [egg-security] use xssProtection middleware
+2017-04-10 17:57:57,249 INFO 57096 [egg-security] use xframe middleware
+2017-04-10 17:57:57,249 INFO 57096 [egg-security] compose 6 middlewares into one security middleware
+2017-04-10 17:57:57,250 INFO 57095 [egg-security] use csrf middleware
+2017-04-10 17:57:57,251 INFO 57095 [egg-security] use methodnoallow middleware
+2017-04-10 17:57:57,251 INFO 57095 [egg-security] use noopen middleware
+2017-04-10 17:57:57,252 INFO 57089 [ClusterClient#Watcher] gives up seizing port 64801, and serves as follower client.
+2017-04-10 17:57:57,252 INFO 57095 [egg-security] use nosniff middleware
+2017-04-10 17:57:57,252 INFO 57095 [egg-security] use xssProtection middleware
+2017-04-10 17:57:57,255 INFO 57095 [egg-security] use xframe middleware
+2017-04-10 17:57:57,255 INFO 57095 [egg-security] compose 6 middlewares into one security middleware
+2017-04-10 17:57:57,267 INFO 57091 [ClusterClient#Watcher] gives up seizing port 64801, and serves as follower client.
+2017-04-10 17:57:57,268 INFO 57093 [ClusterClient#Watcher] gives up seizing port 64801, and serves as follower client.
+2017-04-10 17:57:57,270 INFO 57092 [ClusterClient#Watcher] gives up seizing port 64801, and serves as follower client.
+2017-04-10 17:57:57,272 INFO 57090 [ClusterClient#Watcher] gives up seizing port 64801, and serves as follower client.
+2017-04-10 17:57:57,274 INFO 57089 [Follower#Watcher] register to channel: Watcher success
+2017-04-10 17:57:57,275 INFO 57089 [egg-watcher:app] watcher start success
+2017-04-10 17:57:57,276 INFO 57093 [Follower#Watcher] register to channel: Watcher success
+2017-04-10 17:57:57,276 INFO 57093 [egg-watcher:app] watcher start success
+2017-04-10 17:57:57,277 INFO 57091 [Follower#Watcher] register to channel: Watcher success
+2017-04-10 17:57:57,277 INFO 57091 [egg-watcher:app] watcher start success
+2017-04-10 17:57:57,280 INFO 57094 [ClusterClient#Watcher] gives up seizing port 64801, and serves as follower client.
+2017-04-10 17:57:57,280 INFO 57090 [Follower#Watcher] register to channel: Watcher success
+2017-04-10 17:57:57,281 INFO 57090 [egg-watcher:app] watcher start success
+2017-04-10 17:57:57,281 INFO 57096 [ClusterClient#Watcher] gives up seizing port 64801, and serves as follower client.
+2017-04-10 17:57:57,283 INFO 57095 [ClusterClient#Watcher] gives up seizing port 64801, and serves as follower client.
+2017-04-10 17:57:57,286 WARN 57082 [master] App Worker#1:57089 started at 7001, remain 7 (1318ms)
+2017-04-10 17:57:57,287 INFO 57094 [Follower#Watcher] register to channel: Watcher success
+2017-04-10 17:57:57,287 INFO 57094 [egg-watcher:app] watcher start success
+2017-04-10 17:57:57,287 WARN 57082 [master] App Worker#3:57091 started at 7001, remain 6 (1319ms)
+2017-04-10 17:57:57,287 WARN 57082 [master] App Worker#5:57093 started at 7001, remain 5 (1319ms)
+2017-04-10 17:57:57,288 INFO 57092 [Follower#Watcher] register to channel: Watcher success
+2017-04-10 17:57:57,288 INFO 57092 [egg-watcher:app] watcher start success
+2017-04-10 17:57:57,292 INFO 57095 [Follower#Watcher] register to channel: Watcher success
+2017-04-10 17:57:57,292 INFO 57095 [egg-watcher:app] watcher start success
+2017-04-10 17:57:57,292 INFO 57096 [Follower#Watcher] register to channel: Watcher success
+2017-04-10 17:57:57,293 INFO 57096 [egg-watcher:app] watcher start success
+2017-04-10 17:57:57,294 WARN 57082 [master] App Worker#2:57090 started at 7001, remain 4 (1326ms)
+2017-04-10 17:57:57,295 WARN 57082 [master] App Worker#6:57094 started at 7001, remain 3 (1327ms)
+2017-04-10 17:57:57,297 WARN 57082 [master] App Worker#4:57092 started at 7001, remain 2 (1329ms)
+2017-04-10 17:57:57,300 WARN 57082 [master] App Worker#7:57095 started at 7001, remain 1 (1332ms)
+2017-04-10 17:57:57,300 WARN 57082 [master] App Worker#8:57096 started at 7001, remain 0 (1332ms)
+2017-04-10 17:57:57,300 INFO 57082 [master] egg started on http://127.0.0.1:7001 (1778ms)
