@@ -7,13 +7,10 @@
     "start": "npm run server_dev & npm run static_dev",
     "server_dev": "egg-bin dev",
     "static_dev": "roadhog server",
-
     "test": "npm run static_test & EGG_SERVER_ENV=test npm run server_test",
     "static_test": "roadhog build",
     "server_test": "egg-bin dev",
-
     "unittest": "egg-bin test",
-
     "prod": "npm run static_prod & npm run server_prod",
     "static_prod": "roadhog build",
     "server_prod": "EGG_SERVER_ENV=prod nohup node prop.js > stdout.log 2> stderr.log &"
@@ -28,6 +25,7 @@
     "dva-loading": "^0.2.1",
     "egg": "^1.0.0",
     "egg-bin": "^3.1.0",
+    "egg-mysql": "^3.0.0",
     "egg-oss": "^1.0.1",
     "egg-validate": "^1.0.0",
     "egg-view-ejs": "^1.1.0",
