@@ -23,7 +23,7 @@
     "babel-runtime": "^6.9.2",
     "dva": "^1.2.1",
     "dva-loading": "^0.2.1",
-    "egg": "^1.0.0",
+    "egg": "^1.1.0",
     "egg-bin": "^3.1.0",
     "egg-mysql": "^3.0.0",
     "egg-oss": "^1.0.1",
