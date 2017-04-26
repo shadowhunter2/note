@@ -10,7 +10,7 @@ module.exports = (app) => {
     }
 
     async regPage(ctx){
-      await ctx.render('auth/reg.htm')
+      await ctx.render('auth/reg.htm');
     }
 
     async reg(ctx){

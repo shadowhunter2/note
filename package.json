@@ -8,6 +8,7 @@
     "server_dev": "egg-bin dev",
     "static_dev": "roadhog server",
     "test": "npm run static_test & EGG_SERVER_ENV=test npm run server_test",
+    "test_dev": "npm run static_test & npm run server_dev",
     "static_test": "roadhog build",
     "server_test": "egg-bin dev",
     "unittest": "egg-bin test",
@@ -31,8 +32,12 @@
     "egg-view-ejs": "^1.1.0",
     "egg-view-nunjucks": "^2.0.0",
     "koa-is-json": "^1.0.0",
+    "lodash": "^4.17.4",
     "react": "^15.4.0",
     "react-dom": "^15.4.0",
+    "react-draft-wysiwyg": "^1.9.5",
+    "react-lz-editor": "^0.10.13",
+    "robe-ajax": "^1.0.1",
     "stream-wormhole": "^1.0.3"
   },
   "devDependencies": {

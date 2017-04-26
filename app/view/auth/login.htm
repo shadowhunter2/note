@@ -101,7 +101,9 @@
     var csrftoken = getCookie('csrfToken');
     function csrfSafeMethod(method) { // these HTTP methods do not require CSRF protection
       return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
-    } $.ajaxSetup({
+    }
+    
+    $.ajaxSetup({
       beforeSend: function (xhr, settings) {
         if (!csrfSafeMethod(settings.type)
           && !this.crossDomain) { xhr.setRequestHeader('x-csrf-token', csrftoken); }
@@ -121,7 +123,7 @@
         return alert('用户名或密码不能为空');
       }
 
-      $.post('/login', {
+      $.post('/api/login', {
         name: userName,
         pwd: password
       }, function (data) {

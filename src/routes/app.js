@@ -7,6 +7,7 @@ const { Header, Content, Footer, Sider } = Layout;
 const SubMenu = Menu.SubMenu;
 
 function App({ dispatch, children, loading, location, app }) {
+  const { loginUser} = app;
 
   const menuStyle = {
     width: 70,
@@ -32,13 +33,13 @@ function App({ dispatch, children, loading, location, app }) {
       <Header className={styles.header}>
         <div className={styles.logo}></div>
         <div className={styles.headTitle}>老表写笔记</div>
-        <Menu className={styles.headerMenu} mode="horizontal">
-          <SubMenu title={<span><Icon type="user" />{'user'} </span>} >
-            <Menu.Item>
-              <a href="/login">注销</a>
-            </Menu.Item>
-          </SubMenu>
-        </Menu>
+        {
+          loginUser ? 
+            <span className={styles.headerMenu} >
+              {`用户名：${loginUser.name}，等级：Lv${loginUser.level}`}
+            </span>: null
+        }
+        
       </Header>
 
       <Layout style={{ height: '100vh' }}>

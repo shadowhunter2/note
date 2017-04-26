@@ -19,7 +19,10 @@ app.use(createLoading());
 // app.use({});
 
 // 3. Model
-// app.model(require('./models/example'));
+app.model(require('./models/app'));
+app.model(require('./models/note'));
+app.model(require('./models/calendar'));
+app.model(require('./models/del'));
 
 // 4. Router
 app.router(require('./router'));

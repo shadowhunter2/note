@@ -7,8 +7,13 @@ module.exports = app => {
   app.get('/reg', 'auth.regPage');
   app.post('/api/reg', 'auth.reg');
 
-  app.get('/api/getUser', 'auth.getUser')
+  app.get('/api/getUser', 'auth.getUser');
 
+  app.post('/api/note/add', 'note.add');
+  app.get('/api/note/query', 'note.query');
+  app.get('/api/note/remove', 'note.remove');
+  app.get('/api/note/queryDetail', 'note.queryDetail');
+  app.post('/api/note/update', 'note.update');
   
   //test
   app.get('/test', 'home.test')

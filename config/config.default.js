@@ -1,45 +1,54 @@
-module.exports = {
-  keys: 'whoisyourdad',
+const path = require('path')
 
-  session:{
-    key: 'EGG_SESS', 
-    maxAge: 20 * 60 * 1000, 
-  },
+module.exports =  (app) => {
+  return {
+    keys: 'whoisyourdad',
 
-  'view': {
-    defaultViewEngine: 'nunjucks',
-    mapping: {
-      '.htm': 'nunjucks'
-    }
-  },
+    session: {
+      key: 'EGG_SESS',
+      maxAge: 20 * 60 * 1000,
+    },
 
-  // 'security':{
-  //   'csrf': false
-  // },
+    'view': {
+      defaultViewEngine: 'nunjucks',
+      mapping: {
+        '.htm': 'nunjucks'
+      }
+    },
 
-  'news': {
-    pageSize: 5,
-    serverUrl: 'https://hacker-news.firebaseio.com/v0'
-  },
+    'static': {
+      prefix: '/',
+      dir: path.join(app.baseDir, '/dist')
+    },
 
-  'middleware': [
-    'robot',
-    'gzip',
-    // 'checkLogin',
-    'testUser',
-  ],
+    // 'security':{
+    //   'csrf': false
+    // },
 
-  'robot': {
-    ua: [
-      /Baiduspider/i,
-    ]
-  },
+    'news': {
+      pageSize: 5,
+      serverUrl: 'https://hacker-news.firebaseio.com/v0'
+    },
 
-  'gzip': {
-    enable:false,
-    threshold: 100
-  },
+    'middleware': [
+      'robot',
+      'gzip',
+      // 'checkLogin',
+      'testUser',
+    ],
 
-}
+    'robot': {
+      ua: [
+        /Baiduspider/i,
+      ]
+    },
 
+    'gzip': {
+      enable: false,
+      threshold: 100
+    },
+
+  }
+
+} 
 

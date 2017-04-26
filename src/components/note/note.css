@@ -1,0 +1,97 @@
+.normal {
+  margin: 0;
+  background: #fff;
+  border-right: 1px solid #D2CECE;
+  width: 240px;
+  min-height: 100vh;
+  float: left;
+}
+
+.header{
+  height: 50px;
+  line-height: 50px;
+  padding:0 15px 0 20px;
+  font-size: 15px;
+  color: #443B47;
+  border-bottom: 1px solid #D2CECE;
+}
+
+.header span{
+  float: left;
+}
+.header em{
+  font-style: normal;
+  float: right;
+  margin-right: 10px;
+  cursor: pointer;
+  transform: scale(1.4)
+}
+.normal li{
+  display: block;
+  border-bottom: 1px solid #D2CECE;
+  height: 60px;
+  padding:0 20px;
+  position: relative;
+}
+.active{
+  background: #F0F0F0;
+}
+
+.hover{
+background: #F0F0F0;
+}
+
+.normal li div{
+  height: 30px;
+  line-height: 30px;
+}
+.normal li p{
+  font-size: 14px;
+}
+
+.del{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  transform:scale(1.1)
+}
+
+
+.listHeader{
+  color: #666;
+}
+.date{
+  color:#A9A7A7;
+}
+li a {
+  margin: 0 .5em;
+  color: #666;
+}
+.link{
+  display: block
+}
+
+.contentBox{
+  margin-left: 240px;
+  background: greenyellow;
+  width: 100%;
+  float: left;
+}
+
+.contentHeader{
+  margin: 10px;
+}
+
+.contentHeader div{
+  float: left;
+  margin-right: 10px;
+}
+
+.contentHeader input{
+  float: left;
+  width: 600px;
+  border: none;
+  font-size: 14px;
+  outline: none;
+}

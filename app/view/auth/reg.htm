@@ -112,7 +112,7 @@
         return alert('用户名或密码不能为空');
       }
 
-      $.post('/reg', {
+      $.post('/api/reg', {
         name: userName,
         pwd: password
       }, function (data) {
