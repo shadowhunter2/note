@@ -9,7 +9,7 @@ module.exports = (app) => {
         const res = await app.mysql.select('notes', {
           where: { user_id},
           columns: ['id', 'title', 'create_time', 'modify_time'],
-          orders: [['modify_time', 'desc'],['create_time', 'desc'], ['id', 'desc']], // 排序方式
+          orders: [['modify_time', 'desc']], 
         })
 
         console.log(res);
@@ -71,6 +71,7 @@ module.exports = (app) => {
           title,
           content,
           create_time: app.mysql.literals.now,
+          modify_time: app.mysql.literals.now,
           user_id
         });
         console.log(res);

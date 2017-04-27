@@ -2,11 +2,12 @@ module.exports = (app) => {
   class NewsController extends app.Controller {
     async list(ctx){
       const page = ctx.query.page || 1;
+      const newsService = ctx.service.news;
 
       const resultAll = await (async () => {
         return await Promise.all([
-          ctx.service.news.list(page),
-          ctx.service.news.getTopics()
+          newsService.list(page),
+          newsService.getTopics()
         ]);
       })()
 

@@ -8,6 +8,7 @@
 
 # misc
 .DS_Store
+/.vscode
 npm-debug.log*
 /logs
 /run
