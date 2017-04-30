@@ -10,5 +10,6 @@
 .DS_Store
 /.vscode
 npm-debug.log*
+std*
 /logs
 /run
