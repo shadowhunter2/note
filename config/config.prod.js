@@ -18,6 +18,10 @@ module.exports = {
     agent: false,
   },
 
+  testUser: {
+    enable: false,
+  },
+
   checkLogin: {
     enable: true,
     ignore: ['/login', '/reg']

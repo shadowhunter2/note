@@ -18,9 +18,7 @@ module.exports = {
     agent: false,
   },
 
-  testUser:{
-    enable: true,
-  },
+  
 
   checkLogin: {
     enable: false,
